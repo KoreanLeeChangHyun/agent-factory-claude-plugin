@@ -6,7 +6,7 @@ Agent Factory is a Claude Code plugin for Human-directed software delivery. It p
 three Skills: `agent` for managed Work and Verification execution, `convention` for
 shared project rules, and `document` for authoring and synchronizing project documents.
 
-Version: `1.0.15`
+Version: `1.0.16`
 
 ## Install
 
