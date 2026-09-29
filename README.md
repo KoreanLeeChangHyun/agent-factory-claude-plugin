@@ -7,7 +7,7 @@ four Skills: `agent` for managed Work and Verification execution, `convention` f
 shared project rules, `document` for authoring and synchronizing project documents, and
 `tool`, a catalog of the plugin scripts and the Skill that owns each one.
 
-Version: `1.0.17`
+Version: `1.0.18`
 
 ## Install
 
