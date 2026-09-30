@@ -7,7 +7,7 @@ four Skills: `agent` for managed Work and Verification execution, `convention` f
 shared project rules, `document` for authoring and synchronizing project documents, and
 `tool`, a catalog of the plugin scripts and the Skill that owns each one.
 
-Version: `1.0.21`
+Version: `1.0.22`
 
 ## Install
 
@@ -30,7 +30,7 @@ installs or updates this plugin at the extension's semantic base version.
 ## Document synchronization
 
 Project specification documents in `docs/skills/` are synchronized to `.claude/skills/` and
-`.codex/skills/` by the Document Skill's `sync_documents.py`, making them available as
+`.codex/skills/` (and `.agents/skills/` for Antigravity) by the Document Skill's `sync_documents.py`, making them available as
 project Skills. Synchronized output must not be edited directly; independent edits are
 reported as conflicts.
 
